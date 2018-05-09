@@ -21,7 +21,7 @@ environments.production = {
   'envName': 'production'
 };
 
-// Determin which environment was passed as a command-line argument
+// Determine which environment was passed as a command-line argument
 const currentEnvironment = typeof(process.env.NODE_ENV) == 'string' ? process.env.NODE_ENV.toLowerCase() : '';
 
 // Check that the current environment is one the environment above, if not, default to stating
